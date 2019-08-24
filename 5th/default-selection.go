@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func default_selection_main() {
 	tick := time.Tick(100 * time.Millisecond)
 	boom := time.After(500 * time.Millisecond)
 
